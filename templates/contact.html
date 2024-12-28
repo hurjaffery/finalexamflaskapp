@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="contact-container">
+      <form action="{{ url_for('contact') }}" method="POST">
+        <h2>Contact Us</h2>
+        <input type="text" name="name" placeholder="Your name" /><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email Address"
+        /><br />
+        <input
+          type="text"
+          name="phone"
+          placeholder="Your Phone Number (optional)"
+        /><br />
+        <input
+          type="text"
+          name="website"
+          placeholder="Your Web Site (optional)"
+        /><br />
+        <textarea
+          name="message"
+          placeholder="Type your message here..."
+        ></textarea
+        ><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

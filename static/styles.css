@@ -1,0 +1,93 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8bc34a; /* Soft green */
+  margin: 0;
+}
+
+/* Common container styling */
+.login-container,
+.form-container,
+.contact-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Inputs for login and register form */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Increase size for register form */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%; /* Full width input boxes for register */
+}
+
+/* Textarea for contact form */
+textarea {
+  width: 80%;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles for all forms */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 80%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Headings for all forms */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Text and link styles for forms */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Register specific adjustments */
+.form-container {
+  padding: 30px;
+}

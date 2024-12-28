@@ -1,0 +1,44 @@
+2024-12-28 14:37:13,887 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-28 14:37:13,887 INFO: [33mPress CTRL+C to quit[0m
+2024-12-28 14:37:13,888 INFO:  * Restarting with stat
+2024-12-28 14:37:14,402 WARNING:  * Debugger is active!
+2024-12-28 14:37:14,421 INFO:  * Debugger PIN: 100-755-463
+2024-12-28 14:37:24,606 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:24] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:37:25,849 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:25] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:37:25,878 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:37:32,480 WARNING: Failed login attempt for username: hur
+2024-12-28 14:37:32,483 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:32] "POST /login HTTP/1.1" 200 -
+2024-12-28 14:37:32,509 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:37:38,154 INFO: Successful login for user: hur
+2024-12-28 14:37:38,156 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-28 14:37:38,163 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:38] "GET /contact HTTP/1.1" 200 -
+2024-12-28 14:37:38,189 INFO: 127.0.0.1 - - [28/Dec/2024 14:37:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:38:22,705 INFO: 127.0.0.1 - - [28/Dec/2024 14:38:22] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:41:58,209 INFO: Successful login for user: hur
+2024-12-28 14:41:58,211 INFO: 127.0.0.1 - - [28/Dec/2024 14:41:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-28 14:41:58,215 INFO: 127.0.0.1 - - [28/Dec/2024 14:41:58] "GET /contact HTTP/1.1" 200 -
+2024-12-28 14:41:58,244 INFO: 127.0.0.1 - - [28/Dec/2024 14:41:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:42:00,218 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:00] "GET /contact HTTP/1.1" 200 -
+2024-12-28 14:42:00,236 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:42:04,756 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:04] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:42:04,780 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:42:10,051 INFO: Successful login for user: hur
+2024-12-28 14:42:10,053 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-28 14:42:10,058 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:10] "GET /contact HTTP/1.1" 200 -
+2024-12-28 14:42:10,079 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:42:12,940 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:12] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:42:15,573 INFO: Successful login for user: hur
+2024-12-28 14:42:15,575 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-28 14:42:15,581 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:15] "GET /contact HTTP/1.1" 200 -
+2024-12-28 14:42:15,604 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-28 14:42:17,393 INFO: ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: login
+2024-12-28 14:42:17,394 INFO: 127.0.0.1 - - [28/Dec/2024 14:42:17] "[31m[1mGET /login HTTP/1.1[0m" 429 -
+2024-12-28 14:45:26,818 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-28 14:45:26,819 INFO: [33mPress CTRL+C to quit[0m
+2024-12-28 14:45:26,820 INFO:  * Restarting with stat
+2024-12-28 14:45:27,325 WARNING:  * Debugger is active!
+2024-12-28 14:45:27,353 INFO:  * Debugger PIN: 100-755-463
+2024-12-28 14:45:33,424 INFO: 127.0.0.1 - - [28/Dec/2024 14:45:33] "GET /login HTTP/1.1" 200 -
+2024-12-28 14:45:33,451 INFO: 127.0.0.1 - - [28/Dec/2024 14:45:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
